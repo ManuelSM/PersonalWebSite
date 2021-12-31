@@ -1,0 +1,86 @@
+body{
+    background-color: #086E7D;
+}
+h1,h3,p,a,table,ul,li,form{
+    color: rgb(214, 214, 214);
+}
+h1{
+
+    transition-property: color;
+    transition-duration: 1s;
+}
+h1:hover{
+    color: #FFF89A;
+}
+a{  
+    transition-property: color;
+    transition-duration: 0.3s;
+    text-transform: uppercase;
+}
+a:hover{
+    color: #F6F2D4;
+}
+hr{
+    border-style: dotted none none;
+    border-width: 5px;
+    border-color: #1A5F7A;
+    width: 40%;
+}
+legend{
+    font-size: 1.2rem;
+}
+label,input{
+    margin-bottom: 5px;
+    display: block;
+    align-items: center;
+}
+input{
+    background-color: #f2f2f2;
+}
+input[type=submit]{
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: wheat;
+    border-style: none;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+input[type=submit]:hover{
+    cursor: pointer;
+    background-color: rgb(243, 202, 126);
+}
+input[type=text],input[type=mail]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-bottom: 4px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+textarea{
+    background-color: #f2f2f2;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+.form-contact{
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(48, 148, 163);
+    width: 40%;
+}
+li{
+    margin-bottom: 2px;
+}
+.contact-info{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.text-center{
+    text-align: center;
+    margin-top: 15px;
+}
